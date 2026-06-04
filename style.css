@@ -884,3 +884,17 @@ height:55px;
 }
 
   }
+.fade-up{
+opacity:0;
+transform:translateY(30px);
+transition:all .7s ease;
+}
+
+.visible{
+opacity:1;
+transform:translateY(0);
+}
+
+.main-nav a.active{
+color:#FF7F50;
+}
